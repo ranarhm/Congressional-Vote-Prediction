@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="physician-fee-freeze <= 0.0\nentropy = 0.982\nsamples = 154\nvalue = [65, 89]", fillcolor="#cae5f8"] ;
+1 [label="entropy = 0.0\nsamples = 86\nvalue = [0, 86]", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="fuels-corporation-cutback <= 0.0\nentropy = 0.261\nsamples = 68\nvalue = [65, 3]", fillcolor="#e68742"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="entropy = 0.0\nsamples = 58\nvalue = [58, 0]", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="el-salvador-aid <= 0.0\nentropy = 0.881\nsamples = 10\nvalue = [7, 3]", fillcolor="#f0b78e"] ;
+2 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label="export-administration-act-south-africa <= 0.0\nentropy = 0.764\nsamples = 9\nvalue = [7, 2]", fillcolor="#eca572"] ;
+4 -> 6 ;
+7 [label="water-project-cost-sharing <= 0.0\nentropy = 0.918\nsamples = 3\nvalue = [1, 2]", fillcolor="#9ccef2"] ;
+6 -> 7 ;
+8 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
+7 -> 8 ;
+9 [label="adoption-of-the-budget-resolution <= 0.0\nentropy = 1.0\nsamples = 2\nvalue = [1, 1]", fillcolor="#ffffff"] ;
+7 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]", fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", fillcolor="#399de5"] ;
+9 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 6\nvalue = [6, 0]", fillcolor="#e58139"] ;
+6 -> 12 ;
+}
